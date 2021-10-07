@@ -3,7 +3,7 @@ package ThucHanh_IntroductionToJava;
 
 import java.util.Scanner;
 
-public class Alo {
+public class Test {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("nhập tên");
