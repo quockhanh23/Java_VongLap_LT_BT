@@ -2,27 +2,25 @@ package TH_VongLap;
 
 import java.util.Scanner;
 
-public class KiemTraSoNguyenTo {
+public class TH_KiemTraSoNguyenTo2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Nhập số muốn kiểm tra ");
         int number = scan.nextInt();
         if (number < 2) {
-            System.out.println(number + "không là số nguyên tố");
-        }else {
-            int i = 2;
+            System.out.println(number + " không là số nguyên tố");
+        } else {
             boolean check = true;
-            while (i < number) {
+            for (int i = 2; i < number; i++) {
                 if (number % i == 0) {
                     check = false;
                     break;
                 }
-                i++;
             }
             if (check)
                 System.out.println(number + " là số nguyên tố");
             else
-                System.out.println(number + "không là số nguyên tố");
+                System.out.println(number + " không là số nguyên tố");
         }
     }
 }

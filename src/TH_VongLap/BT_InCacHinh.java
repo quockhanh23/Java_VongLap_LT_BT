@@ -1,9 +1,9 @@
-package BT_VongLap;
+package TH_VongLap;
 
 import java.util.Scanner;
 
 public class BT_InCacHinh {
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
 
         System.out.println("Menu chọn các số sau");
         System.out.println("8. Tam giác vuông ngược ");
