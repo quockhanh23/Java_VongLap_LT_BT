@@ -1,4 +1,4 @@
-package TH_VongLap;
+package ThucHanh_VongLap;
 
 import java.util.Scanner;
 
